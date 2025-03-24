@@ -15,8 +15,8 @@ export function FirstPart(){
         </p>
 
         <div className="flex gap-6 mt-8">
-            <button className="bg-white text-black px-6 py-3 rounded-lg  font-medium text-lg">GitHub</button>
-            <button className="bg-white text-black px-6 py-3 rounded-lg  font-medium text-lg">LinkedIn</button>
+            <a href="https://github.com/utkerdogan" target="_blank"><button className="bg-white text-black px-6 py-3 rounded-lg  font-medium text-lg">GitHub</button></a>
+            <a href="https://www.linkedin.com/in/utku-erdoğan-b602051a8/" target="_blank"><button className="bg-white text-black px-6 py-3 rounded-lg  font-medium text-lg">LinkedIn</button></a>
         </div>
         </div>
 
