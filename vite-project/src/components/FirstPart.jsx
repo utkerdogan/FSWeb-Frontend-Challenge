@@ -1,13 +1,11 @@
 
 export function FirstPart(){
     return (
-        <div className="flex min-h-screen w-screen bg-gradient-to-r from-blue-800 from-60% to-lime-400 p-10 relative items-center">
+        <div className="flex justify-evenly min-h-screen w-screen bg-gradient-to-r from-blue-800 from-60% to-lime-400  items-center ">
 
-
-
-        <div className="w-1/2 flex flex-col justify-center text-white pl-24">
-        <h2 className="text-yellow-300 text-4xl pb-4 font-bold">Utku,</h2>
-        <h1 className="text-6xl font-bold text-yellow-200 mt-4 leading-tight">
+        <div className="w-1/3 flex flex-col justify-items-start ">
+        <h2 className="text-yellow-300 text-4xl pb-40 font-bold">Utku,</h2>
+        <h1 className="text-6xl font-bold text-yellow-200 mt-10 leading-tight">
             I am a Frontend Developer...
         </h1>
         <p className="text-gray-200 mt-6 max-w-lg text-xl">
@@ -20,18 +18,20 @@ export function FirstPart(){
         </div>
         </div>
 
-        <div className="w-1/2 flex flex-col justify-center text-center items-center pr-24">
+        <div className="w-1/3 flex flex-col justify-center text-center items-center">
         <div className="top-6 right-6 flex gap-4">
         <button className="bg-gray-800 text-white px-4 py-2 rounded-lg  text-sm">Dark Mode</button>
         <button className="bg-gray-200 text-black px-4 py-2 rounded-lg  text-sm">Türkçe'ye Geç</button>
         </div>
-        <div className="rounded-2xl shadow-lg overflow-hidden w-[420px] h-[420px] bg-white">
+        <div className="rounded-2xl overflow-hidden w-[420px] h-[420px] bg-white">
             <img
             src="https://picsum.photos/200/300"
-            className="w-full h-full object-fit"
+            className="w-full h-full object-cover"
             />
         </div>
         </div>
+        
     </div>
+    
     );
 }
