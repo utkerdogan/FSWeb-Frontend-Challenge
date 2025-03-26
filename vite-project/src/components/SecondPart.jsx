@@ -41,8 +41,8 @@ export function SecondPart() {
         <div className="w-1/3">
             <h2 className="text-3xl font-bold text-lime-300">Profile</h2>
             <h3 className="text-xl font-semibold mt-4">Basic Information</h3>
-            <p className="mt-2"><strong>Doğum Tarihi:</strong> 24.03.1996</p>
-            <p className="mt-1"><strong>Doğum Şehri:</strong> Ankara</p>
+            <p className="mt-2"><strong>Doğum Tarihi:</strong> 01.01.2002</p>
+            <p className="mt-1"><strong>Doğum Şehri:</strong> Istanbul</p>
             <p className="mt-1"><strong>Eğitim Durumu:</strong> Frontend Dev, Bootcamp</p>
             <p className="mt-1"><strong>Tercih Ettiği Rol:</strong> Frontend, UI</p>
         </div>
