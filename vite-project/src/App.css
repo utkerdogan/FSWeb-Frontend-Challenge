@@ -1,6 +1,10 @@
-html, body {
+body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    width: 100%;
+}
+.skills-text{
+    color: rgb(31 41 55);
+    padding-left: 15px;
+    font-weight: 500;
 }
