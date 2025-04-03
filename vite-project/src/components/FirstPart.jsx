@@ -40,9 +40,9 @@ export function FirstPart(){
         <button className="bg-white text-black px-4 py-2 rounded-lg  text-sm dark:bg-gray-800 dark:text-white" onClick={toggleLanguage}>{language === "en" ? "Türkçe'ye Geç" : "Switch to English"}</button>
         <button onClick={toggleDarkMode} className="bg-gray-800 text-white px-4 py-2 rounded-lg  text-sm dark:bg-white dark:text-black">{isDarkMode ? "Light Mode" : "Dark Mode"}</button>
         </div>
-        <div className="rounded-2xl overflow-hidden w-[420px] h-[420px]">
+        <div className="rounded-2xl overflow-hidden w-[420px] h-[400px]">
             <img
-            src="../assets/utku1.png"
+            src="../public/assets/utku1.png"
             className="w-full h-full object-cover"
             />
         </div>
