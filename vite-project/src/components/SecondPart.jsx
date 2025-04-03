@@ -6,7 +6,7 @@ export function SecondPart() {
     const { language } = useLanguageContext();
     return (
         <>
-    <div className="bg-white flex flex-row align-center justify-evenly items-center h-[400px] dark:bg-gray-800">
+    <div className="bg-white flex flex-row align-center justify-evenly items-center h-[400px] dark:bg-gray-800 second-part">
         <h2 className="text-3xl font-bold text-blue-700 dark:text-purple-800">{texts[language].skills}</h2>
             <div className="grid grid-cols-2 gap-10 mt-6 text-center">
                 {skillsData.map((skill) => (
@@ -17,8 +17,8 @@ export function SecondPart() {
                 ))}
             </div>
         </div>
-    <div className="h-[400px] w-full bg-blue-900 p-10 flex justify-center items-center text-white dark:bg-purple-800">
-    <div className="max-w-5xl w-full flex items-center">
+    <div className="h-[50%] w-full bg-blue-900 p-10 flex justify-center items-center text-white dark:bg-purple-800 ">
+    <div className="max-w-5xl w-full flex items-center gap-5 profile-container ">
         <div className="w-1/3">
             <h2 className="text-3xl font-bold text-lime-600 dark:text-black">{texts[language].profile}</h2>
             <h3 className="text-xl font-semibold mt-4">{texts[language].info}</h3>
@@ -27,8 +27,8 @@ export function SecondPart() {
             <p className="mt-1"><strong>{texts[language].info3}</strong> Frontend Dev, Bootcamp</p>
             <p className="mt-1"><strong>{texts[language].info4}</strong> Frontend, UI</p>
         </div>
-        <div className="w-1/3 flex justify-center">
-            <img src="../public/assets/utku2.png" className="rounded-lg shadow-lg w-[250px] object-cover" />
+        <div className="w-1/3 flex justify-center profile-image2">
+            <img src="../public/assets/utku2.png" className="rounded-full w-[250px] object-contain" />
         </div>
         <div className="w-1/3">
             <h3 className="text-xl font-semibold">{texts[language].about}</h3>
