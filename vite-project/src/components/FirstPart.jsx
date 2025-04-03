@@ -42,7 +42,7 @@ export function FirstPart(){
         </div>
         <div className="rounded-2xl overflow-hidden w-[420px] h-[420px]">
             <img
-            src="../public/utku1.png"
+            src="../assets/utku1.png"
             className="w-full h-full object-cover"
             />
         </div>

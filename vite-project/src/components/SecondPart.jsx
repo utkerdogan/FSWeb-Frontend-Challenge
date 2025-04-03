@@ -28,7 +28,7 @@ export function SecondPart() {
             <p className="mt-1"><strong>{texts[language].info4}</strong> Frontend, UI</p>
         </div>
         <div className="w-1/3 flex justify-center">
-            <img src="../public/utku2.png" className="rounded-lg shadow-lg w-[250px] object-cover" />
+            <img src="../assets/utku2.png" className="rounded-lg shadow-lg w-[250px] object-cover" />
         </div>
         <div className="w-1/3">
             <h3 className="text-xl font-semibold">{texts[language].about}</h3>
